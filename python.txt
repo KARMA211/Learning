@@ -1,0 +1,41 @@
+finding length = len(name_of_thing)
+
+sorting : arr.sort()
+        in reverse : arr.sort(reverse=True)
+
+
+squaring :    square=[i**2 for i in range (0,5)];
+even aquares :   eve=[1**2 for i in range (0,11) if i%2==0];
+            
+
+word.upper()   :to convert something into all caps
+word.lower()   :to convert to lowercase
+
+swapping :  arr[j], arr[j + 1] = arr[j + 1], arr[j] 
+
+
+splitting, joining and slicing :
+                        
+                        sentence = "apple,banana,orange"
+                        fruits = sentence.split(",")  # Split into list
+                        print(f"Splitted: {fruits}")
+    
+                        joined = " - ".join(fruits)  # Join list into string
+                        print(f"Joined: {joined}")
+                        
+                        -> slicing :
+                                    sequence[start:stop:step]
+                                    
+
+removing white spaces from front and back :  text.strip()
+
+
+ typecasting(explicitely setting data type of a variable) : mid = int(n/2)
+
+
+ division : float division  5/2 -> gives 2.5
+            intrgrt division 5//2-> gives 2 (integer , rounds down )
+
+
+minimum finding :
+                    min_len= min(len(s) for s in list )

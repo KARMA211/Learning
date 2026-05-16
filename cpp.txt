@@ -1,0 +1,49 @@
+VECTOR -> dynamic array 
+                syntax -> std::vector<data_type> name;    (eg ->   std::vector<int> numbers;)
+                (need to be included ->  #include <vector>)
+                can be initialized -> std::vector<int> numbers={1,2,3,4};
+                adding element at end -> numbers.emplace_back(5); ( more efficient than push_back )
+                                         numbers.push_back(4);
+
+                inserting at a position -> numbers.insert(numbers.begin(),0)    (0 will be inserted at the start )
+                                           numbers.insert(numbers.begin()+2, 99)  ( 99 will be inserted at position 2 from start )
+                                           numbers.insert(numbers.end(),{6,7})   (insert 6, 7 at the end )
+
+                                           numbers.insert(numbers.begin(),3,100) (insert 3 100's -> [100,100,100])
+
+                Removing elements -> numbers.pop_back();   (remove last element)
+                                     numbers.erase(numbers.begin());  (remove first ele)
+                                     numbers.erase(numbers.begin()+1) (Remove first index)
+                                     numbers.erase(numbers.begin(),numbers.begin()+2)    ( remove the specific range)
+                                     v.clear; (remove all )
+
+                Acessing elements -> std::vector<int> v = {100,200,300,400,500};
+
+                                     int a = v[0]; //100
+                                     int b = v.at(1); //200
+                                     int c = v.front(); //100
+                                     int d = v.back(); //500 
+
+                                     int* ptr = v.data();  //return ptr to first ele
+
+                                     auto it = v.begin();
+                                     int e = *it; //100
+                                     int f = *(it+2);  //300
+
+                Capacity features -> std::vector<int> v;
+
+                                     v.size(); //no. of ele in vector 
+                                     v.capacity(); // how many ele can fit without reallocation
+                                     v.max_size(); //max possible size 
+                                     v.empty(); // check if vector is empty (bool)
+
+                                     v.reserve(100); //pre allocate memory for 100 eles 
+                                     v.shrink_to_fit(); //reduce capacity to fit size 
+                                     
+                                     v.resize(10); // change size to 10 ( fills with 0's)
+                                     v.resize(15,99); // resize to 15 , fill new eles with 99 
+                                     v.resize(5); //truncate to 5 eles 
+
+                
+
+                        
