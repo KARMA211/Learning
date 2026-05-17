@@ -1,0 +1,87 @@
+Fundamental Approaches:
+Brute Force / Naive - Just try everything (often acceptable for small inputs)
+
+Recursion - Function calls itself
+
+Iteration - Loops (for, while)
+
+Common Algorithmic Paradigms:
+Backtracking - Build solution incrementally, undo if stuck (N-Queens, Sudoku, maze solving)
+
+Greedy - Make locally optimal choice at each step (coin change, scheduling, Dijkstra's)
+
+Divide & Conquer - Split, solve separately, combine (merge sort, quick sort, binary search)
+
+Dynamic Programming - Memoization or tabulation (knapsack, LCS, Fibonacci)
+
+Pointer/Index Techniques:
+Fast & Slow Pointer - Cycle detection in linked lists
+
+Left & Right Pointers - Two-pointer technique (your example)
+
+Three Pointers - Dutch national flag problem
+
+Specialized Techniques:
+Binary Search - On sorted arrays, answer space, or rotated arrays
+
+Prefix Sum - Range sum queries efficiently
+
+Difference Array - Range updates
+
+Sliding Window - Fixed or variable length (substrings, subarrays)
+
+Monotonic Stack/Queue - Next greater element, sliding window maximum
+
+Binary Indexed Tree / Segment Tree - Range queries with updates
+
+Graph-Specific:
+BFS - Shortest path in unweighted graph, level order traversal
+
+DFS - Connected components, topological sort
+
+Union-Find (Disjoint Set) - Cycle detection, connectivity
+
+Topological Sort - Task scheduling, dependency resolution
+
+Dijkstra's - Shortest path with non-negative weights
+
+Bellman-Ford - Shortest path with negative weights
+
+Floyd-Warshall - All-pairs shortest paths
+
+Prim's / Kruskal's - Minimum spanning tree
+
+Tarjan's / Kosaraju's - Strongly connected components
+
+String-Specific:
+Rabin-Karp - Rolling hash for pattern matching
+
+KMP - Efficient substring search
+
+Trie - Prefix-based searching
+
+Z-algorithm - Pattern matching
+
+Mathematical:
+Two Pointers on Sorted Arrays (you listed)
+
+Meet in the Middle - Split problem in half
+
+Bitmasking - Subset enumeration for small n
+
+Binary Exponentiation - Fast power calculation
+
+Sieve of Eratosthenes - Prime number generation
+
+Advanced:
+Mo's Algorithm - Offline query processing
+
+Square Root Decomposition - Balancing operations
+
+Heavy-Light Decomposition - Tree path queries
+
+Convex Hull Trick - DP optimization
+
+Line Sweep - Geometric problems
+
+
